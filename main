@@ -510,6 +510,12 @@ section3:addButton("Yield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+section3:addButton("Orion Hub", function()
+    _G.CustomColors = "Hot pink"--Can use Brick Color or RGB: Color.fromRGB(0,0,0)<-Black
+    wait(1)
+    loadstring(game:HttpGet(('https://pastebin.com/raw/wGnHeXvu'),true))()
+end)
+
 section1:addButton("Quick Respawn", function()
 	local keybind = ','
 
